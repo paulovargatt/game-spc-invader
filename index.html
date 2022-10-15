@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        p{
+            position: fixed;
+            z-index: 10;
+            left: 15px;
+            color: #fff;
+            top: 0;
+            font-family: "Yu Gothic UI";
+            font-size: 19px;
+        }
+    </style>
+</head>
+<body>
+<p>Score: <span id="score">0</span></p>
+<canvas></canvas>
+</body>
+<script src="./index.js"></script>
+</html>
